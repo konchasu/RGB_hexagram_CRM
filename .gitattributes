@@ -1,0 +1,2 @@
+sample_simulation_data/merged-z_history_d01*nc filter=lfs diff=lfs merge=lfs -text
+sample_simulation_data/*nc filter=lfs diff=lfs merge=lfs -text
