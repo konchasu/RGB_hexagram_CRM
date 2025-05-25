@@ -7,7 +7,6 @@ The supported languages are now Python and fortran.  If you are a fortran user a
 
 Please see [Kondo (2025)](https://doi.org/10.2151/sola.2025-028) for details of the visualization and multivariate analysis method.
 
-<img src="images_hex/rgb_hexagram_overview.png" alt="RGB Hexagram with k=2" width="800">
 
 ## Preparation
 The simulation results used in this repository are based on the “3.2 Real Atmospheric Case” tutorial provided in the documentation of cloud-resolving model SCALE. In this tutorial, simulation outputs corresponding to liquid water, graupel, ice, and temperature are used as the 3-components of RGB values. </br>
@@ -18,6 +17,8 @@ For this analysis, NetCDF data generated using two different cloud microphysics 
 ├── README.md
 ├── README_jp.md
 ├── RGB_hexagram_tutorial_for_SCALE_comparison.ipynb
+├── images_crm
+│   └── RGB_hexagram_Area_analysis_CRM.png
 └── sample_simulation_data
     ├── merged-z_history_d01_sn14.pe000000.nc
     └── merged-z_history_d01_t08.pe000000.nc
@@ -32,7 +33,7 @@ The RGB hexagram is enable us to get two major findings of this simulation datas
 
 These analyses are effective in enhancing our understanding of key characteristics of clouds.
 
-
+<img src="images_crm/RGB_hexagram_Area_analysis_CRM.png" alt="RGB Hexagram with k=2" width="800">
 
 ## Future Prospects for the Application of the RGB Hexagram
 The RGB hexagram approach can be effectively applied to arbitrary variables within any dataset. Moreover, if common variables are used across different models or schemes, it is possible to perform visualization and analysis using a shared RGB hexagram across multiple datasets.
