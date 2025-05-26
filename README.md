@@ -35,6 +35,11 @@ These analyses are effective in enhancing our understanding of key characteristi
 
 <img src="images_crm/RGB_hexagram_Area_analysis_CRM.png" alt="RGB Hexagram with k=2" width="800">
 
+###### (Left) Visualization of the composition of mixed-phase cloud areas using RGB-based color representation, (Right) Characterization of mixed-phase cloud areas based on the Area information on the RGB hexagram
+
+</br>
+
+
 ## Future Prospects for the Application of the RGB Hexagram
 The RGB hexagram approach can be effectively applied to arbitrary variables within any dataset. Moreover, if common variables are used across different models or schemes, it is possible to perform visualization and analysis using a shared RGB hexagram across multiple datasets.
 
