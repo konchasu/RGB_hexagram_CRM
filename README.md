@@ -9,7 +9,7 @@ Please see [Kondo (2025)](https://doi.org/10.2151/sola.2025-028) for details of 
 
 
 ## Preparation
-The simulation results used in this repository are based on the “3.2 Real Atmospheric Case” tutorial provided in the documentation of cloud-resolving model SCALE. In this tutorial, simulation outputs corresponding to liquid water, graupel, ice, and temperature are used as the 3-components of RGB values. </br>
+The simulation results used in this repository are based on the “3.2 Real Atmospheric Case” tutorial provided in [the documentation of cloud-resolving model SCALE](https://scale.riken.jp/archives/scale_users_guide_En.v5.5.4.pdf). In this tutorial, simulation outputs corresponding to liquid water, graupel, ice, and temperature are used as the 3-components of RGB values. </br>
 For this analysis, NetCDF data generated using two different cloud microphysics schemes (1-moment bulk scheme: Tomita 2008; `data/merged-z_history_d01_t08.pe000000.nc`, 2-moment bulk scheme: Seiki and Nakajima 2014; `data/merged-z_history_d01_sn14.pe000000.nc`) were utilized.
 
 ```
