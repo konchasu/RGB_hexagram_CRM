@@ -7,6 +7,8 @@ The supported languages are now Python and fortran.  If you are a fortran user a
 
 Please see [Kondo (2025)](https://doi.org/10.2151/sola.2025-028) for details of the visualization and multivariate analysis method.
 
+This repository is released under the MIT License. If you use the RGB hexagram method in your presentations or publications, please cite [Kondo (2025)](https://doi.org/10.2151/sola.2025-028).
+
 
 ## Preparation
 The simulation results used in this repository are based on the “3.2 Real Atmospheric Case” tutorial provided in [the documentation of cloud-resolving model SCALE](https://scale.riken.jp/archives/scale_users_guide_En.v5.5.4.pdf). In this tutorial, simulation outputs corresponding to liquid water, graupel, ice, and temperature are used as the 3-components of RGB values. </br>
