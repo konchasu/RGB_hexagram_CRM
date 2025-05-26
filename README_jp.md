@@ -8,7 +8,7 @@ RGBヘキサグラムを用いた可視化・多変量解析はあらゆる気�
 
 
 ## 事前準備
-本チュートリアルで用いるシミュレーション結果は気象モデルSCALEのチュートリアル資料における「[現実大気実験](scale_users_guide.v5.5.4.pdf)」の結果を用います。本チュートリアルではRGBヘキサグラムに用いるRGB値の3変数に液水・霰・氷を、鉛直軸に気温を用いました。 </br>
+本チュートリアルで用いるシミュレーション結果は気象モデルSCALEのチュートリアル資料における「[現実大気実験](https://scale.riken.jp/archives/scale_users_guide.v5.5.4.pdf)」の結果を用います。本チュートリアルではRGBヘキサグラムに用いるRGB値の3変数に液水・霰・氷を、鉛直軸に気温を用いました。 </br>
 解析にはSCALEに実装されている2種類の雲微物理スキーム (1-moment bulk scheme: Tomita 2008; `data/merged-z_history_d01_t08.pe000000.nc`, 2-moment bulk scheme: Seiki and Nakajima 2014; `data/merged-z_history_d01_sn14.pe000000.nc`) によるNetCDFデータを用いました。
 
 ```
