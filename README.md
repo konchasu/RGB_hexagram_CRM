@@ -1,4 +1,5 @@
 # RGB Hexagram (Kondo 2025) application to simulation results using a cloud-resolving model
+###### Before running any code in this repository, please import `from generate_rgb_hex import generate_rgb_hex` and execute , and then run `r_hex, g_hex, b_hex, num_hex = generate_rgb_hex(k)` in `for_python/RGB_hexagram_tutorial_for_generation.ipynb` in [the initial RGB hexagram repository](https://github.com/konchasu/RGB_hexagram_tutorial).
 ## Introduction
 This software provides sample source code as a tutorial for applying the RGB (Red, Green, and Blue) hexagram, a visualization and multivariate analysis method, to simulation results using a cloud-resolving model.
 The visualization and multivariate analysis using RGB hexagram can apply to general cloud-resolving model, although the cloud-resolving model: [SCALE](https://scale.riken.jp) (Scalable Computing for Advanced Library and Environment, Nisizawa et al. 2015; Sato et al. 2015) in this tutorial.
